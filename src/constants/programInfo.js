@@ -50,7 +50,7 @@ export const schoolInfo = {
 export const faq = {
   // faq section
   costOfLiving: true, // true if at least one program has cost of living included
-  costOfLivingPrograms: "Bootcamp Pro program", // leave as empty string is cost of living availability is the same across all programs
+  costOfLivingPrograms: "IN-PERSON Bootcamp program", // leave as empty string is cost of living availability is the same across all programs
   multCostOfLivingPrograms: false, // true if costOfLivingPrograms string has more than one program
   interestOnly: true, // true if interest-only payments are an option
   immediateRepayment: false, // true if immediate repayment is an option
@@ -73,7 +73,7 @@ export const faq = {
   // max loan amounts by program for faq1
   loanRange: [
     {
-      programName: "Evolve Security Academy's Bootcamp Pro program",
+      programName: "Evolve Security Academy's IN-PERSON Bootcamp program",
       maxAmount: "$12,500",
       col: true,
       colAmount: "$3,000",
@@ -112,7 +112,7 @@ export const threeStepCardText = {
   step1: "",
   step2: {
     header: "select your program",
-    text: "Choose between the Bootcamp Pro and Bootcamp Remote programs.",
+    text: "Choose between the IN-PERSON Bootcamp and Bootcamp Remote programs.",
   },
   step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`,
 }
@@ -140,7 +140,7 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 export const programLoanInfo = [
   // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
   {
-    name: "Bootcamp Pro",
+    name: "IN-PERSON Bootcamp",
     url: "https://my.skills.fund/application?lenderCode=SKEV17",
     loanInfo: {
       // match loanInfo in first metro below
@@ -221,7 +221,7 @@ export const programLoanInfo = [
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-  "Choose the loan amount that works best for you. Borrow up to $12,500 for Bootcamp Pro tuition and up to $3,000 for cost of living, or up to $10,500 for Bootcamp Remote tuition."
+  "Choose the loan amount that works best for you. Borrow up to $12,500 for IN-PERSON Bootcamp tuition and up to $3,000 for cost of living, or up to $10,500 for Bootcamp Remote tuition."
 
 export const paymentTable = {
   headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
