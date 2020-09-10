@@ -140,7 +140,7 @@ export const faq = {
     },
     {
       programName: "Evolve Security Academy's Bootcamp Remote program",
-      maxAmount: "$10,500",
+      maxAmount: "$11,500",
       col: false,
       colAmount: "$6,000",
     },
