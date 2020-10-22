@@ -134,13 +134,13 @@ export const faq = {
   loanRange: [
     {
       programName: "Evolve Security Academy's IN-PERSON Bootcamp program",
-      maxAmount: "$12,500",
+      maxAmount: "$13,500",
       col: true,
       colAmount: "$3,000",
     },
     {
       programName: "Evolve Security Academy's Bootcamp Remote program",
-      maxAmount: "$11,500",
+      maxAmount: "$13,500",
       col: false,
       colAmount: "$6,000",
     },
