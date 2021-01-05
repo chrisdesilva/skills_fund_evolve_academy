@@ -144,6 +144,12 @@ export const faq = {
       col: false,
       colAmount: "$6,000",
     },
+    {
+      programName: "Evolve Security Academy's OSCP Bootcamp program",
+      maxAmount: "$8,250",
+      col: false,
+      colAmount: "$6,000",
+    },
   ],
 }
 
@@ -265,6 +271,44 @@ export const programLoanInfo = [
         loanInfo: {
           // match loanInfo to Program 2 loanInfo above
           maxLoanAmt: 10500,
+          loanTerm36: true,
+          loanTerm60: true,
+          "Interest Only": {
+            k: 7,
+            apr36: 11.5,
+            apr60: 12.8,
+          },
+          "Immediate Repayment": null,
+        },
+      },
+    ],
+  },
+  {
+    name: "OSCP Bootcamp",
+    url: "https://my.skills.fund/application?lenderCode=SFEVOSCPB20",
+    loanInfo: {
+      // match loanInfo in first metro below
+      maxLoanAmt: 8250,
+      loanTerm36: true,
+      loanTerm60: true,
+      "Interest Only": {
+        k: 7,
+        apr36: 11.5,
+        apr60: 12.8,
+      },
+      "Immediate Repayment": null,
+    },
+    defaultLoanType: "Interest Only", // leave at 0 for interest-only, set to 1 for immediate repayment
+    showMetros: false,
+    showLoanTypes: false,
+    loanTypes: ["Interest Only"],
+    locations: ["Metro 1", "Metro 2"],
+    metros: [
+      {
+        location: "Metro 1",
+        loanInfo: {
+          // match loanInfo to Program 2 loanInfo above
+          maxLoanAmt: 8250,
           loanTerm36: true,
           loanTerm60: true,
           "Interest Only": {
